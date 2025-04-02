@@ -1,0 +1,65 @@
+/*MAIN BRANDS*/
+.brands{
+    width: 100%;
+    height: 600px;
+    background-color: var(--color-rojo);
+}
+.brands__mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+/*TITLE BOX*/
+.brands__mainContainer__titleBox{
+    margin-left: 100px;
+}
+.brands__mainContainer__titleBox h2{
+    font-family: var(--textos-primarios);
+    color: var(--color-blanco);
+    font-size: 70px;
+}
+
+/*SLIDER*/
+.brands__mainContainer__slider{
+    width: 800px;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.brands__mainContainer__slider__cinta{
+    display: flex;
+    gap: 25px;
+    transition: transform 0.5s ease-in-out;
+    width: 500px;
+}
+.brands__mainContainer__slider__cinta img{
+    width: 300px;
+    height: 100px;
+}
+/*IMAGE BOX*/
+.brands__mainContainer__imageBox{
+    margin-right: 200px;
+}
+.brands__mainContainer__imageBox img{
+    width: 400px;
+    height: 500px;
+}
+.brands__mainContainer__imageBox__shape_circle-up{
+    border-radius: 50%;
+    background-color: var(--color-rojo);
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    bottom: 20px;
+    right: 550px;
+}
+.brands__mainContainer__imageBox__shape_circle-down{
+    background-color: var(--color-rojo);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    right: 125px;
+    bottom: -330px;
+}

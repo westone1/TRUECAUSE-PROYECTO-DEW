@@ -1,0 +1,49 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;  
+ }
+main{
+    margin-top:100px;
+}
+body {
+    width: 100%;
+    height: auto;
+    font-family: Roboto, sans-serif;
+    background-color: var(--color-plomo-fondo);
+    scroll-behavior: smooth;
+}
+p{
+    font-family: var(--textos-secundarios);
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: var( -textos-primarios);
+}
+button{
+    font-family: var(--textos-secundarios);
+}
+ul, li {
+    padding: 0;
+}
+input{
+    font-family: var(--textos-primarios);
+}
+
+
+/*VARIABLES*/
+
+:root{
+
+    /*COLORES*/
+    --color-rojo:#D71B28;
+    --color-blanco:#ffffff;
+    --color-plomo-letras:#474747;
+    --color-plomo-letras-hover:#47474750;
+    --color-plomo-fondo:#F2F2F2;
+    /*FUENTES*/
+    --textos-generales:"Merriweather", serif;
+    --textos-secundarios:"Poppins", sans-serif;
+    --textos-primarios:"Lato", sans-serif;
+}
