@@ -3,7 +3,6 @@ let posicion = 0;
 
 
 function carrusel(){
-    console.log(cinta.children)
     if(posicion <= cinta.children.length -1){
         posicion++
         cinta.style.transform=`translateX(-${posicion * 100}px)`
