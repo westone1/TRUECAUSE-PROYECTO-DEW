@@ -9,27 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--CSS-->
+
+    <!---RUTAS PARA GITHUB--->
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/setter.css">
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/header/header.css">
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/body/inicio/banner.css">
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/body/inicio/brands.css">
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/body/inicio/mision.css">
     <link rel="stylesheet" href="../TRUECAUSE-PROYECTO-DEW/css/body/inicio/vision.css">
+    <!---RUTAS EN LOCAL--->
+    <link rel="stylesheet" href="css/setter.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/body/inicio/banner.css">
+    <link rel="stylesheet" href="css/body/inicio/brands.css">
+    <link rel="stylesheet" href="css/body/inicio/mision.css">
+    <link rel="stylesheet" href="css/body/inicio/vision.css">
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="header-mainContainer">
             <img src="img/logoTrueCause-noBg.png" alt="logo-truecause-vih-lucha">
             <nav class="header-mainContainer__navbar">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Empresas Aliadas</a></li>
-                    <li><a href="">Historias de impacto</a></li>
-                    <li><a href="">Contactanos</a></li>
+                    <li><a id="link_menuBar">Inicio</a></li>
+                    <li><a id="link_menuBar">Empresas Aliadas</a></li>
+                    <li><a id="link_menuBar">Historias de impacto</a></li>
+                    <li><a id="link_menuBar">Contactanos</a></li>
                 </ul>
             </nav>
-            <i class="fa-solid fa-moon"></i>
+            <i id="themeButton" class="fa-solid fa-moon" onclick=switchTheme()></i>
         </div>
     </header>
     <main>
@@ -63,6 +72,7 @@
                             <img id="brand_logo" src="img/logo9.png" alt="logo-chanel">
                             <img id="brand_logo" src="img/logo10.png" alt="logo-audi">
                             <img id="brand_logo" src="img/logo1.png" alt="logo-samsung">
+                            
                         </div>
                     </div>
                 </div>
