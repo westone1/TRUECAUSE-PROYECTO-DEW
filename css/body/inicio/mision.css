@@ -28,7 +28,7 @@
     transform: rotate(399deg);
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    bottom: -594px;
+    bottom: -574px;
     right: 624px;
 }
 .mision__mainContainer__imageBox img{
@@ -41,6 +41,6 @@
     background-color: var(--color-plomo-fondo);
     position: absolute;
     border-radius: 50%;
-    bottom: -840px;
+    bottom: -810px;
     right: 172px;
 }

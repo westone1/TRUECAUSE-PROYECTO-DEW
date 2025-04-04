@@ -32,10 +32,10 @@
             <img src="img/logoTrueCause-noBg.png" alt="logo-truecause-vih-lucha">
             <nav class="header-mainContainer__navbar">
                 <ul>
-                    <li><a id="link_menuBar">Inicio</a></li>
-                    <li><a id="link_menuBar">Empresas Aliadas</a></li>
-                    <li><a id="link_menuBar">Historias de impacto</a></li>
-                    <li><a id="link_menuBar">Contactanos</a></li>
+                    <li><a href="" id="link_menuBar">Inicio</a></li>
+                    <li><a href="" id="link_menuBar">Empresas Aliadas</a></li>
+                    <li><a href="" id="link_menuBar">Historias de impacto</a></li>
+                    <li><a href="" id="link_menuBar">Contactanos</a></li>
                 </ul>
             </nav>
             <i id="themeButton" class="fa-solid fa-moon" onclick=switchTheme()></i>
@@ -43,15 +43,15 @@
     </header>
     <main>
         <section class="banner">
-            <article class="banner__mainContainer">
+            <article id="whiteArticle" class="banner__mainContainer">
                 <div class="banner__mainContainer__titleBox">
-                    <h1>Somos la red mas grande <br> de recaudación y apoyo para la <br> lucha contra el VIH</h1>
-                    <button>Quiero ser parte</button>
+                    <h1 id="whiteText">Somos la red mas grande <br> de recaudación y apoyo para la <br> lucha contra el VIH</h1>
+                    <button onclick=setModal()>Quiero ser parte</button>
                 </div>
                 <div class="banner__mainContainer__imageBox">
-                    <div class="banner__mainContainer__imageBox__shape_circle-up"></div>
+                    <div id="whiteShape" class="banner__mainContainer__imageBox__shape_circle-up"></div>
                     <img src="img/abrazo2.jpg" alt="">
-                    <div class="banner__mainContainer__imageBox__shape_circle-down"></div>
+                    <div id="whiteShape" class="banner__mainContainer__imageBox__shape_circle-down"></div>
                 </div>
             </article>
         </section>
@@ -84,22 +84,22 @@
             </article>
         </section>
         <section class="mision">
-            <article class="mision__mainContainer">
+            <article id="whiteArticle" class="mision__mainContainer">
                 <div class="mision__mainContainer__titleBox">
-                    <h2>Misión</h2>
-                    <p>Tenemos como misión conectar marcas <br> comprometidas con la responsabilidad social,<br> con personas y organizaciones que <br> luchan contra el VIH, facilitando la recaudación <br> de fondos para tratamientos, educación y prevención</p>
+                    <h2 id="whiteText">Misión</h2>
+                    <p id="whiteText">Tenemos como misión conectar marcas <br> comprometidas con la responsabilidad social,<br> con personas y organizaciones que <br> luchan contra el VIH, facilitando la recaudación <br> de fondos para tratamientos, educación y prevención</p>
                 </div>
                 <div class="mision__mainContainer__imageBox">
-                    <div class="mision__mainContainer__imageBox__square-up"></div>
+                    <div id="whiteShape" class="mision__mainContainer__imageBox__square-up"></div>
                     <img src="img/donation.jpg" alt="">
-                    <div class="mision__mainContainer__imageBox__ciercle-down"></div>
+                    <div id="whiteShape" class="mision__mainContainer__imageBox__ciercle-down"></div>
                 </div>
             </article>
         </section>
         <section class="vision">
             <article class="vision__mainContainer">
                 <div class="vision__mainContainer__imageBox">
-                    <div class="vision__mainContainer__imageBox__square-up"></div>
+                    <div  class="vision__mainContainer__imageBox__square-up"></div>
                     <img src="img/charity.jpg" alt="">
                     <div class="vision__mainContainer__imageBox__ciercle-down"></div>
                 </div>
@@ -111,6 +111,9 @@
         </section>
         
     </main>
+    <footer>
+
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>

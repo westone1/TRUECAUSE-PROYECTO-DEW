@@ -28,6 +28,7 @@ header{
     font-size: 25px;
     font-family: var(--textos-secundarios);
     text-decoration: none;
+    cursor: pointer;
 }
 .header-mainContainer__navbar ul>li a:hover{
     color: var(--color-rojo);
