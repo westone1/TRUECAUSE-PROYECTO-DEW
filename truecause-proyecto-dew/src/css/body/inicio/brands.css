@@ -52,7 +52,7 @@
     width: 210px;
     height: 210px;
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     right: 550px;
 }
 .brands__mainContainer__imageBox__shape_circle-down{
@@ -62,5 +62,5 @@
     height: 250px;
     border-radius: 50%;
     right: 125px;
-    bottom: -380px;
+    bottom: -320px;
 }

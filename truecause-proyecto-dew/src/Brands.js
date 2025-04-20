@@ -1,23 +1,65 @@
-import React from "react";
+import React,{useEffect,useRef} from "react";
 import './css/body/inicio/brands.css'
 import ImageBrands from './img/abrazo.jpg'
+import ImgLogo1 from './img/logo1.png'
+import ImgLogo2 from './img/logo2.png'
+import ImgLogo3 from './img/logo3.png'
+import ImgLogo4 from './img/logo4.png'
+import ImgLogo5 from './img/logo5.png'
+import ImgLogo6 from './img/logo6.png'
+import ImgLogo7 from './img/logo7.png'
+import ImgLogo8 from './img/logo8.png'
+import ImgLogo9 from './img/logo9.png'
+
 
 function Brands() {
+    const cintaRef = useRef(null);
+    let posicion = 0;
+
+    useEffect(() => {
+        const carrusel = () => {
+            const cinta = cintaRef.current;
+            if (cinta && cinta.children.length > 0) {
+                if (posicion < cinta.children.length - 1) {
+                    posicion++;
+                    cinta.style.transform = `translateX(-${posicion * 100}px)`;
+                } else {
+                    posicion = 0;
+                    cinta.style.transform = `translateX(0)`;
+                }
+            }
+        }
+
+        setInterval(carrusel, 500);
+
+        
+    }, []);
+
+
     return (
         <article className="brands__mainContainer">
             <div className="brands__mainContainer__titleBox">
-                <h2>Conectamos marcas que <br /> sienten que realmente se <br /> puede hacer algo</h2>
-                <div class="brands__mainContainer__slider">
-                    <div class="brands__mainContainer__slider__cinta">
-                    
+                <h2>Conectamos marcas que <br/> sienten que realmente se <br/> puede hacer algo</h2>
+                <div className="brands__mainContainer__slider">
+                    <div className="brands__mainContainer__slider__cinta" ref={cintaRef}>
+                        <img className="brand_logo" src={ImgLogo1}/>
+                        <img className="brand_logo" src={ImgLogo2}/>
+                        <img className="brand_logo" src={ImgLogo3}/>
+                        <img className="brand_logo" src={ImgLogo4}/>
+                        <img className="brand_logo" src={ImgLogo5}/>
+                        <img className="brand_logo" src={ImgLogo6}/>
+                        <img className="brand_logo" src={ImgLogo7}/>
+                        <img className="brand_logo" src={ImgLogo8}/>
+                        <img className="brand_logo" src={ImgLogo9}/>
+                        <img className="brand_logo" src={ImgLogo1}/>
                     </div>
                 </div>
             </div>
-            <div class="brands__mainContainer__imageBox">
-                    <div class="brands__mainContainer__imageBox__shape_circle-up"></div>
-                    <img src={ImageBrands} alt=""/>
-                    <div class="brands__mainContainer__imageBox__shape_circle-down"></div>
-                </div>
+            <div className="brands__mainContainer__imageBox">
+                <div className="brands__mainContainer__imageBox__shape_circle-up"></div>
+                <img src={ImageBrands} alt="" />
+                <div className="brands__mainContainer__imageBox__shape_circle-down"></div>
+            </div>
 
         </article>
     )
@@ -26,32 +68,3 @@ function Brands() {
 }
 
 export default Brands
-
-/*
-     <article class="brands__mainContainer">
-                <div class="brands__mainContainer__titleBox">
-                    <h2>Conectamos marcas que <br> sienten que realmente se <br> puede hacer algo</h2>
-                    <div class="brands__mainContainer__slider">
-                        <div class="brands__mainContainer__slider__cinta">
-                            <img id="brand_logo" src="img/logo1.png" alt="logo-samsung">
-                            <img id="brand_logo" src="img/logo2.png" alt="logo-adidas">
-                            <img id="brand_logo" src="img/logo3.png" alt="logo-visa">
-                            <img id="brand_logo" src="img/logo4.png" alt="logo-nike">
-                            <img id="brand_logo" src="img/logo5.png" alt="logo-starbucks">
-                            <img id="brand_logo" src="img/logo6.png" alt="logo-fedex">
-                            <img id="brand_logo" src="img/logo7.png" alt="logo-disney">
-                            <img id="brand_logo" src="img/logo8.png" alt="logo-lacoste">
-                            <img id="brand_logo" src="img/logo9.png" alt="logo-chanel">
-                            <img id="brand_logo" src="img/logo10.png" alt="logo-audi">
-                            <img id="brand_logo" src="img/logo1.png" alt="logo-samsung">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="brands__mainContainer__imageBox">
-                    <div class="brands__mainContainer__imageBox__shape_circle-up"></div>
-                    <img src="img/abrazo.jpg" alt="">
-                    <div class="brands__mainContainer__imageBox__shape_circle-down"></div>
-                </div>
-            </article>
-*/ 

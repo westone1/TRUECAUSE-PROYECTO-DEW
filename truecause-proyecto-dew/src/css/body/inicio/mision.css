@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
+    background-color: var(--color-blanco);
 }
 .mision__mainContainer__titleBox{
     margin-left: 100px;
@@ -26,12 +27,12 @@
 .mision__mainContainer__imageBox__square-up{
     width: 114px;
     height: 269px;
-    background-color: var(--color-plomo-fondo);
+    background-color: var(--color-blanco);
     position: absolute;
     transform: rotate(399deg);
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    bottom: -630px;
+    bottom: -577px;
     right: 636px;
 }
 .mision__mainContainer__imageBox img{
@@ -41,9 +42,9 @@
 .mision__mainContainer__imageBox__ciercle-down{
     width: 175px;
     height: 175px;
-    background-color: var(--color-plomo-fondo);
+    background-color: var(--color-blanco);
     position: absolute;
     border-radius: 50%;
-    bottom: -870px;
+    bottom: -820px;
     right: 172px;
 }

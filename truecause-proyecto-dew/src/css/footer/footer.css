@@ -32,12 +32,11 @@
 .footer_mainContainer__navBox__navbar>ul>li{
     margin-right: 50px;
     font-family: var(--textos-secundarios);
-    color: var(--color-plomo-letras);
     font-size: 20px;
     cursor: pointer;
 }
 .footer_mainContainer__navBox__navbar>ul>li>a{
-    color: var(--color-blanco);
+    color: white;
     text-decoration: none;
 }
 .footer_mainContainer__navBox__navbar>ul>li>a:hover{

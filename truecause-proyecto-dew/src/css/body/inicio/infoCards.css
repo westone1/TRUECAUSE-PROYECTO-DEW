@@ -2,14 +2,16 @@
     font-family: var(--textos-primarios);
     color: var(--color-rojo);
     font-size: 60px;
-    margin-top: 5rem;
-    margin-left: 75px;
+    padding:3rem 2rem 2rem 4rem;
+    background-color: var(--color-blanco);
+    
 }
 .infoCards__mainContainer{
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 2.5rem 4rem 2.5rem 4rem;
+    background-color: var(--color-blanco);
 }
 .infoCards__mainContainer_card{
     width: 500px;

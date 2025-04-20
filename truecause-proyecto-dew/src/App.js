@@ -1,5 +1,6 @@
 import './App.css';
 import './css/setter.css'
+
 import HeaderMainContainer from './Header.js';
 import Banner from './Banner.js';
 import Brands from './Brands.js';
@@ -37,5 +38,7 @@ function App() {
     </>
   )
 }
+
+
 
 export default App;

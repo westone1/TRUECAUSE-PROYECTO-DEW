@@ -30,7 +30,7 @@
     transform: rotate(310deg);
     border-top-left-radius: 80%;
     border-bottom-left-radius: 80%;
-    bottom: -1418px;
+    bottom: -1370px;
     left: 95px;
 }
 .vision__mainContainer__imageBox img{
@@ -43,6 +43,6 @@
     background-color: var(--color-rojo);
     position: absolute;
     border-radius: 50%;
-    bottom: -1065px;
+    bottom: -1033px;
     left: 495px;
 }

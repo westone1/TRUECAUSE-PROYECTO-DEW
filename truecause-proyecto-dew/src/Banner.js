@@ -10,7 +10,7 @@ function Banner(){
                 <button>Quiero ser parte</button>
             </div>
             <div className="banner__mainContainer__imageBox">
-            <div id="whiteShape" class="banner__mainContainer__imageBox__shape_circle-up"></div>
+            <div id="whiteShape" className="banner__mainContainer__imageBox__shape_circle-up"></div>
                     <img src={ImageBanner} alt="abrazo-pareja"/>
                     <div id="whiteShape" className="banner__mainContainer__imageBox__shape_circle-down"></div>
             </div>

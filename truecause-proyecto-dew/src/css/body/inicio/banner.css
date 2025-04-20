@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
+    background-color: var(--color-blanco);
 }
 .banner__mainContainer__titleBox{
     margin-left: 100px;
@@ -41,7 +42,7 @@
 }
 .banner__mainContainer__imageBox__shape_circle-up{
     border-radius: 50%;
-    background-color: var(--color-plomo-fondo);
+    background-color: var(--color-blanco);
     width: 210px;
     height: 210px;
     position: absolute;
@@ -51,7 +52,7 @@
 
 .banner__mainContainer__imageBox__shape_circle-down{
     border-radius: 50%;
-    background-color: var(--color-plomo-fondo);
+    background-color: var(--color-blanco);
     width: 220px;
     height: 220px;
     position: absolute;
