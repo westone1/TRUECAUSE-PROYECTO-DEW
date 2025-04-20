@@ -4,11 +4,10 @@
     box-sizing: border-box;  
  }
 main{
-    margin-top:100px;
+    margin-top:150px;
 }
 body {
     width: 100%;
-    height: auto;
     height: auto;
     font-family: Roboto, sans-serif;
     background-color: var(--color-plomo-fondo);
@@ -30,6 +29,9 @@ ul, li {
 }
 input{
     font-family: var(--textos-primarios);
+}
+a{
+    font-family: var(--textos-secundarios);
 }
 
 

@@ -1,0 +1,49 @@
+.mision__mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+.mision__mainContainer__titleBox{
+    margin-left: 100px;
+}
+.mision__mainContainer__titleBox h2{
+    font-family: var(--textos-primarios);
+    color: var(--color-plomo-letras);
+    font-size: 70px;
+    text-align: justify;
+
+}
+.mision__mainContainer__titleBox p{
+    font-family: var(--textos-secundarios);
+    text-align: justify;
+    color: var(--color-plomo-letras);
+    font-size: 35px;
+}
+.mision__mainContainer__imageBox{
+    margin-right: 200px;
+}
+.mision__mainContainer__imageBox__square-up{
+    width: 114px;
+    height: 269px;
+    background-color: var(--color-plomo-fondo);
+    position: absolute;
+    transform: rotate(399deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    bottom: -630px;
+    right: 636px;
+}
+.mision__mainContainer__imageBox img{
+    width: 450px;
+    height: 415px;
+}
+.mision__mainContainer__imageBox__ciercle-down{
+    width: 175px;
+    height: 175px;
+    background-color: var(--color-plomo-fondo);
+    position: absolute;
+    border-radius: 50%;
+    bottom: -870px;
+    right: 172px;
+}

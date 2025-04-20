@@ -1,24 +1,8 @@
 
-/*CARRUSEL DE MARCAS*/
-const cinta = document.querySelector(".brands__mainContainer__slider__cinta") 
-let posicion = 0;
-
-
-function carrusel(){
-    if(posicion <= cinta.children.length -1){
-        posicion++
-        cinta.style.transform=`translateX(-${posicion * 100}px)`
-    }else{
-        posicion = 0;
-        cinta.style.transform=`translateX(0)`
-    }
-}
-setInterval(carrusel,500)
-
-/*CAMBIO DE TEMA(CLARO / OSCURO)*/ 
 const themeButton = document.getElementById("themeButton")
 let flagTheme = 0
-function switchTheme(){
+
+function CambioTema(){
     if(flagTheme == 0){
         temaOscuro()
         flagTheme = 1;
@@ -38,7 +22,8 @@ const whiteTexts = document.querySelectorAll("#whiteText")
 const whiteShape = document.querySelectorAll("#whiteShape")
 
 function temaOscuro(){
-    themeButton.setAttribute("src", "./img/sol.png")
+    themeButton.classList.remove(`fa-moon`)
+    themeButton.classList.add(`fa-sun`)
 
     
     header.style.backgroundColor="var(--color-negro)"
@@ -58,7 +43,8 @@ function temaOscuro(){
    
 }
 function temaClaro(){
-    themeButton.setAttribute("src", "./img/luna.png")
+    themeButton.classList.remove(`fa-sun`)
+    themeButton.classList.add(`fa-moon`)
 
     header.style.backgroundColor="var(--color-blanco)"
     for(let i = 0; i<linksMenuBar.length;i++){
@@ -76,7 +62,6 @@ function temaClaro(){
     
 
 }
-/*MODAL*/
-function setModal(){
-    
-} 
+
+
+export default CambioTema

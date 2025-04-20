@@ -24,12 +24,14 @@
     <link rel="stylesheet" href="css/body/inicio/brands.css">
     <link rel="stylesheet" href="css/body/inicio/mision.css">
     <link rel="stylesheet" href="css/body/inicio/vision.css">
+    <link rel="stylesheet" href="./css/body/inicio/infoCards.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
 
 </head>
 <body>
     <header id="header">
         <div class="header-mainContainer">
-            <img src="img/logoTrueCause-noBg.png" alt="logo-truecause-vih-lucha">
+            <img  class="header-mainContainer__logotruecause" src="img/logoTrueCause-noBg.png" alt="logo-truecause-vih-lucha">
             <nav class="header-mainContainer__navbar">
                 <ul>
                     <li><a href="" id="link_menuBar">Inicio</a></li>
@@ -38,7 +40,7 @@
                     <li><a href="" id="link_menuBar">Contactanos</a></li>
                 </ul>
             </nav>
-            <i id="themeButton" class="fa-solid fa-moon" onclick=switchTheme()></i>
+            <img class="cambioTema" src="./img/luna.png" alt="cambiotema_icono" id="themeButton" onclick="switchTheme()">
         </div>
     </header>
     <main>
@@ -109,10 +111,56 @@
                 </div>
             </article>
         </section>
-        
+        <section class="infoCards">
+            <article class="infoCards-article" id="whiteArticle">
+                <h2 class="infoCards__tittle">Como ayudar</h2>
+                <div class="infoCards__mainContainer">
+                    <div class="infoCards__mainContainer_card">
+                        <img src="./img/time-white-removebg-preview.png" alt="">
+                        <p>Dona por tu cuenta a travez de los medios digitales que tenemos disponibles, sea grande o pequeño lo importante es que tu aporta salga de tu corazón.</p>
+                    </div>
+                    <div class="infoCards__mainContainer_card">
+                        <img src="./img/money-white-removebg-preview.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quod molestias quia porro sit eos exercitationem, dolorum, tempora fuga aliquid autem libero cum minus totam est qui temporibus optio aperiam.</p>
+                    </div>
+                    <div class="infoCards__mainContainer_card">
+                        <img src="./img/bank-white-removebg-preview.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quod molestias quia porro sit eos exercitationem, dolorum, tempora fuga aliquid autem libero cum minus totam est qui temporibus optio aperiam.</p>
+                    </div>
+                </div>
+            </article>    
+        </section>
     </main>
-    <footer>
-
+    <footer id="footer">
+        <div class="footer_mainContainer">
+            <div class="footer_mainContainer__mainbox">
+                <div class="footer_mainContainer__mainbox__navBox">
+                    <img src="img/logoTrueCause-noBg.png" alt="logo-truecause-vih-lucha">
+                    <nav class="footer_mainContainer__navBox__navbar">
+                        <ul>
+                            <li><a href="">Empresas Aliadas</a></li>
+                            <li><a href="">Historias de impacto</a></li>
+                            <li><a href="">Contacto</a></li>
+                            <li><a href="#header">Inicio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_mainContainer__mainbox__socialMediaBox">
+                    <img src="img/true-cause-corazon.png" alt="">
+                    <div class="footer_mainContainer__socialMediaBox__redes">
+                        <a href="https://www.instagram.com/truecausearg/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/TrueCauseArgentina" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/TrueCauseArg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/truecausearg/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="footer_mainContainer__derechosBox">
+                <p class="derechos">© Todos los derechos reservados <span class="fecha"></span></p>
+            </div>
+        </div> 
     </footer>
     <script src="js/main.js"></script>
 </body>

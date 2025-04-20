@@ -14,9 +14,9 @@ header{
     gap: 35px;
     padding: 2.5rem;
 }
-.header-mainContainer__logotruecause{
-    width: 150px;
-    height: 100px;
+.header-mainContainer>img{
+    width: 260px;
+    height: 220px;
 }
 .header-mainContainer__navbar ul{
     margin-left: 250px;
@@ -38,12 +38,5 @@ header{
     position: fixed;
     right: 30px;
     color: var(--color-rojo);
-    cursor: pointer;
-}
-.cambioTema{
-    width: 30px;
-    height: 30px;
-    right: 30px;
-    top: 20px;
     cursor: pointer;
 }
