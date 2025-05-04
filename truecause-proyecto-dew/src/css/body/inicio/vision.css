@@ -13,6 +13,7 @@
     font-family: var(--textos-primarios);
     color:var(--color-blanco);
     font-size: 70px;
+    text-align: end;
 }
 .vision__mainContainer__titleBox p{
     font-family: var(--textos-secundarios);
@@ -30,7 +31,7 @@
     transform: rotate(310deg);
     border-top-left-radius: 80%;
     border-bottom-left-radius: 80%;
-    bottom: -1370px;
+    bottom: -1360px;
     left: 95px;
 }
 .vision__mainContainer__imageBox img{

@@ -1,0 +1,29 @@
+#accordionboton{
+  background-color: var(--color-rojo);
+  font-family: var(--textos-generales);
+  font-size: 25px;
+  color: var(--color-negro);
+}
+#accordion-body{
+  padding: 2.5rem;
+}
+.accordion-body{
+    background-color: var(--color-blanco);
+    font-size: 25px;
+    display: flex;
+    color:var(--color-negro);
+    font-family: var(--textos-secundarios);
+ }
+.image__accordion{
+  width: 525px;
+  height: 500px;
+  margin: 15px;
+  border-radius: 5px;
+}
+.image__accordion:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in;
+  -webkit-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+}

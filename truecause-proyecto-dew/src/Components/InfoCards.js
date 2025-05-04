@@ -1,8 +1,8 @@
 import React from "react";
-import './css/body/inicio/infoCards.css'
-import InfocardImageTiempo from './img/time-white-removebg-preview.png'
-import InfoCardImageMoney from './img/money-white-removebg-preview.png'
-import InfocardImageMoney from './img/bank-white-removebg-preview.png'
+import '../css/body/inicio/infoCards.css'
+import InfocardImageTiempo from '../img/time-white-removebg-preview.png'
+import InfoCardImageMoney from '../img/money-white-removebg-preview.png'
+import InfocardImageMoney from '../img/bank-white-removebg-preview.png'
 function Infocards() {
     return (
         <>

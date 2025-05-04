@@ -24,7 +24,7 @@ header{
     display: flex;
     gap: 100px;
 }.header-mainContainer__navbar ul>li a{
-    color:var(--color-plomo-letras);
+    color:var(--color-negro);
     font-size: 25px;
     font-family: var(--textos-secundarios);
     text-decoration: none;

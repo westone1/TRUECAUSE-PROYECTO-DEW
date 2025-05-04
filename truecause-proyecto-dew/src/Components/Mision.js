@@ -1,6 +1,6 @@
 import React from "react";
-import './css/body/inicio/mision.css'
-import ImageVision from './img/donation.jpg'
+import '../css/body/inicio/mision.css'
+import ImageVision from '../img/donation.jpg'
 
 function Mision(){
     return(

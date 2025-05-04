@@ -4,6 +4,7 @@
     font-size: 60px;
     padding:3rem 2rem 2rem 4rem;
     background-color: var(--color-blanco);
+    margin: 0
     
 }
 .infoCards__mainContainer{

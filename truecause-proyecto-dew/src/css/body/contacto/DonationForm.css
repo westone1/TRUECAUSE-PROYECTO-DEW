@@ -1,0 +1,122 @@
+
+  
+.form-mainContainer{
+    background-image: url(../../../img/foto-grupo-playa.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    Background-size:cover;
+    Background-attachment:fixed;
+    width: 100%;
+    height: 100%;
+    float: inline-end;
+  }
+  .donacion-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: var(--color-blanco);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #3a3737;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 200px;
+    margin-bottom: 150px;
+  }
+  
+  .donacion-form h1 {
+    font-size: 30px;
+    font-family: var(--textos-generales);
+    color: var(--color-rojo);
+  }
+
+  .donacion-form h3 {
+    text-align: center;
+    font-size: 70px;
+    font-family: var(--textos-generales);
+    color: whitesmoke;
+    font-weight: 500;
+    backdrop-filter: blur(6px);
+    letter-spacing: 8px;
+    
+  }
+  .donacion-form>h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #f0f0f0;
+  }
+
+  td {
+    background-color: whitesmoke;
+  }
+ 
+  .donacion-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--color-negro);
+  }
+  
+  .donacion-form input,
+  .donacion-form select,
+  .donacion-form textarea {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .donacion-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .donacion-form button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: var(--color-rojo);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--textos-primarios);
+  }
+  
+  .donacion-form button:hover {
+    background-color: white;
+    color: var(--color-rojo);
+  }
+
+  .donations-table {
+    max-width: 800px;
+    margin: 2rem auto;
+    
+  }
+  .donations-table>h2{
+    color: white;
+  }
+  
+  .donations-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .donations-table th,
+  .donations-table td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .donations-table th {
+    background-color: #f0f0f0;
+  }
+  

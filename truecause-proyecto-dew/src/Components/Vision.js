@@ -1,6 +1,6 @@
 import React from "react";
-import './css/body/inicio/vision.css'
-import VisionImage from './img/charity.jpg'
+import '../css/body/inicio/vision.css'
+import VisionImage from '../img/charity.jpg'
 
 function Vision(){
     return(
